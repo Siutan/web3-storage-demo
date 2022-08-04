@@ -23,6 +23,9 @@ export const COMPUTERNAME = "MUKILSLAPTOP";
 /** @type {import('$env/static/private').ComSpec} */
 export const ComSpec = "C:\\Windows\\system32\\cmd.exe";
 
+/** @type {import('$env/static/private').dp0} */
+export const dp0 = "C:\\Users\\mukil\\AppData\\Roaming\\npm\\";
+
 /** @type {import('$env/static/private').DriverData} */
 export const DriverData = "C:\\Windows\\System32\\Drivers\\DriverData";
 
@@ -57,7 +60,7 @@ export const LOGONSERVER = "\\\\MUKILSLAPTOP";
 export const NODE = "C:\\Program Files\\nodejs\\node.exe";
 
 /** @type {import('$env/static/private').npm_config_argv} */
-export const npm_config_argv = "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"run\"]}";
+export const npm_config_argv = "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"run\",\"dev\",\"--host\"]}";
 
 /** @type {import('$env/static/private').npm_config_bin_links} */
 export const npm_config_bin_links = "true";
@@ -125,9 +128,6 @@ export const npm_package_dependencies_web3_storage = "^4.3.0";
 /** @type {import('$env/static/private').npm_package_dependencies__fontsource_fira_mono} */
 export const npm_package_dependencies__fontsource_fira_mono = "^4.5.0";
 
-/** @type {import('$env/static/private').npm_package_description} */
-export const npm_package_description = "Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).";
-
 /** @type {import('$env/static/private').npm_package_devDependencies_eslint} */
 export const npm_package_devDependencies_eslint = "^8.16.0";
 
@@ -175,6 +175,9 @@ export const npm_package_devDependencies__typescript_eslint_parser = "^5.27.0";
 
 /** @type {import('$env/static/private').npm_package_devDependencies__types_cookie} */
 export const npm_package_devDependencies__types_cookie = "^0.5.1";
+
+/** @type {import('$env/static/private').npm_package_license} */
+export const npm_package_license = "MIT";
 
 /** @type {import('$env/static/private').npm_package_name} */
 export const npm_package_name = "web3-storage-demo";
@@ -228,10 +231,10 @@ export const OneDrive = "C:\\Users\\mukil\\OneDrive";
 export const OS = "Windows_NT";
 
 /** @type {import('$env/static/private').Path} */
-export const Path = "C:\\Users\\mukil\\AppData\\Local\\Temp\\yarn--1659511192162-0.5149610382825935;C:\\Users\\mukil\\OneDrive\\Documents\\GitHub\\web3-storage-demo\\node_modules\\.bin;C:\\Users\\mukil\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Users\\mukil\\AppData\\Local\\Yarn\\bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\PowerShell\\7;C:\\Program Files\\Eclipse Adoptium\\jdk-8.0.322.6-hotspot\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Users\\mukil\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\dotnet\\;C:\\Program Files\\PostgreSQL\\14\\lib;C:\\Program Files\\PostgreSQL\\14\\bin;C:\\Program Files\\PowerShell\\7\\;C:\\Users\\mukil\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mukil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\PyCharm 2021.3.2\\bin;;C:\\Program Files\\JetBrains\\WebStorm 2021.3.2\\bin;;C:\\Users\\mukil\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\mukil\\AppData\\Roaming\\npm;C:\\Users\\mukil\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\heroku\\bin;C:\\Users\\mukil\\OneDrive\\Documents\\GitHub\\web3-storage-demo\\node_modules\\.bin";
+export const Path = "C:\\Users\\mukil\\AppData\\Local\\Temp\\yarn--1659613219416-0.7201971448256843;C:\\Users\\mukil\\OneDrive\\Documents\\GitHub\\web3-storage-demo\\node_modules\\.bin;C:\\Users\\mukil\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Users\\mukil\\AppData\\Local\\Yarn\\bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\Eclipse Adoptium\\jdk-8.0.322.6-hotspot\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Users\\mukil\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\dotnet\\;C:\\Program Files\\PostgreSQL\\14\\lib;C:\\Program Files\\PostgreSQL\\14\\bin;C:\\Program Files\\PowerShell\\7\\;C:\\Users\\mukil\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mukil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\PyCharm 2021.3.2\\bin;;C:\\Program Files\\JetBrains\\WebStorm 2021.3.2\\bin;;C:\\Users\\mukil\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\mukil\\AppData\\Roaming\\npm;C:\\Users\\mukil\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\heroku\\bin";
 
 /** @type {import('$env/static/private').PATHEXT} */
-export const PATHEXT = ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL";
+export const PATHEXT = ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC";
 
 /** @type {import('$env/static/private').POWERSHELL_DISTRIBUTION_CHANNEL} */
 export const POWERSHELL_DISTRIBUTION_CHANNEL = "MSI:Windows 10 Home";
@@ -261,7 +264,7 @@ export const ProgramW6432 = "C:\\Program Files";
 export const PROMPT = "$P$G";
 
 /** @type {import('$env/static/private').PSModulePath} */
-export const PSModulePath = "C:\\Users\\mukil\\OneDrive\\Documents\\PowerShell\\Modules;C:\\Program Files\\PowerShell\\Modules;c:\\program files\\powershell\\7\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules";
+export const PSModulePath = "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules";
 
 /** @type {import('$env/static/private').PUBLIC} */
 export const PUBLIC = "C:\\Users\\Public";
@@ -280,12 +283,6 @@ export const SystemRoot = "C:\\Windows";
 
 /** @type {import('$env/static/private').TEMP} */
 export const TEMP = "C:\\Users\\mukil\\AppData\\Local\\Temp";
-
-/** @type {import('$env/static/private').TERMINAL_EMULATOR} */
-export const TERMINAL_EMULATOR = "JetBrains-JediTerm";
-
-/** @type {import('$env/static/private').TERM_SESSION_ID} */
-export const TERM_SESSION_ID = "a159d60d-9be3-45c5-8d4e-0db516e2ba33";
 
 /** @type {import('$env/static/private').TMP} */
 export const TMP = "C:\\Users\\mukil\\AppData\\Local\\Temp";
@@ -317,5 +314,8 @@ export const YARN_WRAP_OUTPUT = "false";
 /** @type {import('$env/static/private').ZES_ENABLE_SYSMAN} */
 export const ZES_ENABLE_SYSMAN = "1";
 
-/** @type {import('$env/static/private').__INTELLIJ_COMMAND_HISTFILE__} */
-export const __INTELLIJ_COMMAND_HISTFILE__ = "C:\\Users\\mukil\\AppData\\Local\\JetBrains\\WebStorm2022.1\\terminal\\history\\web3-storage-demo-history";
+/** @type {import('$env/static/private')._prog} */
+export const _prog = "node";
+
+/** @type {import('$env/static/private').VITE_WEB3_TOKEN} */
+export const VITE_WEB3_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGM1MTkzMTlDMTcyYzQwMzA5YUIzMDZBRjBlODZEZjViMkI3MDNjNWQiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NDY5MTU1MDgzODYsIm5hbWUiOiJUZXN0VG9rZW4ifQ.nW4GK5JdaLHdtHIcnlf3TJQ51Kwpbup8WO2y0bBRDQw";

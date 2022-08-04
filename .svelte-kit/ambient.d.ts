@@ -14,6 +14,7 @@ declare module '$env/static/private' {
 	export const CommonProgramW6432: string;
 	export const COMPUTERNAME: string;
 	export const ComSpec: string;
+	export const dp0: string;
 	export const DriverData: string;
 	export const FPS_BROWSER_APP_PROFILE_STRING: string;
 	export const FPS_BROWSER_USER_PROFILE_STRING: string;
@@ -48,7 +49,6 @@ declare module '$env/static/private' {
 	export const npm_package_dependencies_cookie: string;
 	export const npm_package_dependencies_web3_storage: string;
 	export const npm_package_dependencies__fontsource_fira_mono: string;
-	export const npm_package_description: string;
 	export const npm_package_devDependencies_eslint: string;
 	export const npm_package_devDependencies_eslint_config_prettier: string;
 	export const npm_package_devDependencies_eslint_plugin_svelte3: string;
@@ -65,6 +65,7 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies__typescript_eslint_eslint_plugin: string;
 	export const npm_package_devDependencies__typescript_eslint_parser: string;
 	export const npm_package_devDependencies__types_cookie: string;
+	export const npm_package_license: string;
 	export const npm_package_name: string;
 	export const npm_package_readmeFilename: string;
 	export const npm_package_scripts_build: string;
@@ -100,8 +101,6 @@ declare module '$env/static/private' {
 	export const SystemDrive: string;
 	export const SystemRoot: string;
 	export const TEMP: string;
-	export const TERMINAL_EMULATOR: string;
-	export const TERM_SESSION_ID: string;
 	export const TMP: string;
 	export const USERDOMAIN: string;
 	export const USERDOMAIN_ROAMINGPROFILE: string;
@@ -112,5 +111,6 @@ declare module '$env/static/private' {
 	export const windir: string;
 	export const YARN_WRAP_OUTPUT: string;
 	export const ZES_ENABLE_SYSMAN: string;
-	export const __INTELLIJ_COMMAND_HISTFILE__: string;
+	export const _prog: string;
+	export const VITE_WEB3_TOKEN: string;
 }
